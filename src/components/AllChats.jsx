@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import ChatCard from "./SignleChat/ChatCard"
 
+// https://caht-app.vercel.app/
 // eslint-disable-next-line react/prop-types
 const AllChats = ({ chats, user }) => {
     useEffect(() => {
@@ -11,7 +12,7 @@ const AllChats = ({ chats, user }) => {
 
     }, [chats]);
     return (
-        <div id="scool" className="h-[320px] w-[600px]  flex flex-col  overflow-auto ">
+        <div id="scool" className="h-[320px] w-[42y]  flex flex-col  overflow-auto ">
             {
                 // eslint-disable-next-line react/prop-types
                 chats && chats.map((cu, i) => {
